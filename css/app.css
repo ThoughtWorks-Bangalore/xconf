@@ -539,6 +539,7 @@ td {
     margin: 0;
     padding: 0;
     direction: ltr;
+    table-layout: fixed;
 }
 
 /* Default Link Styles */
@@ -5134,7 +5135,9 @@ section {
 #agenda .timings .row:last-child {
     border-bottom: 0;
 }
-
+#agenda .timings .row td {
+    width: 33%;
+}
 #agenda .timings .row .time p {
     color: hotpink;
     font-size: 0.55em;
