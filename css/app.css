@@ -5138,6 +5138,11 @@ section {
 #agenda .timings .row td {
     width: 33%;
 }
+
+.grey-timings {
+    color: black !important;
+}
+
 #agenda .timings .row .time p {
     color: hotpink;
     font-size: 0.55em;
@@ -5252,6 +5257,9 @@ section {
     /*background-image: url(../img/dark-bg.jpg);*/
 }
 
+#location .row .address p {
+    text-align: left;
+}
 #location h1, #location h2, #location h3, #location #archive .grid a .day, #archive .grid a #location .day, #location h4, #location h5, #location h6, #location #archive .grid a .month, #archive .grid a #location .month, #location .subheader, #location p, #location blockquote, #location a, #location small, #location #archive .grid a .year, #archive .grid a #location .year {
     color: white;
 }
