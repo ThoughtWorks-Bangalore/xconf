@@ -4881,8 +4881,7 @@ section {
 
 #intro {
     color: #222222;
-    background: white url(../img/white-bg.png);
-    background: url("../img/main.jpg");
+    background: url("../img/main.jpg") no-repeat center;
     background-size: cover;
     border-radius: 0;
 }
