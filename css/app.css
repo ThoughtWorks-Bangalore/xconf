@@ -4933,10 +4933,17 @@ section {
     animation: flipInX 1s 0.5s ease both;
 }
 
-#intro .logo h5.subheader {
+#intro .logo p {
+    padding-top: 1em;
+}
+#intro #xconf-heading {
+    padding-top: 1em;
+}
+
+#intro .logo p.subheader {
     color: #f3002a;
     font-size: 0.85em;
-    margin: 1em 0 0 0;
+    padding-top: 0em;
 }
 
 #intro .countdown h4 {
@@ -5306,6 +5313,15 @@ section {
     color: #d9d9d9;
 }
 
+#about .row #xconf-logo {
+    width: 30%;
+    margin: 30px;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-bottom: 40px;
+}
+
 #about .social a {
     font-size: 1.5em;
     display: inline-block;
@@ -5361,7 +5377,6 @@ section {
 
 #about blockquote p {
     text-align: left;
-    font-size: 1em;
     margin-bottom: 1em;
 }
 
