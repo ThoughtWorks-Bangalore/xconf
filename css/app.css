@@ -5141,19 +5141,28 @@ section {
 #agenda .timings .row:last-child {
     border-bottom: 0;
 }
-#agenda .timings .row td {
-    width: 33%;
-}
 
 .grey-timings {
     color: black !important;
 }
 
-#agenda .timings .row .time p {
+#agenda {
+    padding: 5%;
+}
+#agenda .row .time {
     color: hotpink;
-    font-size: 0.55em;
+    font-size: 0.8em;
 }
 
+#agenda td {
+    border : 1px dashed #b38600;
+    width: 25%;
+    padding: 10px;
+}
+
+#agenda .theading {
+    text-align: center;
+}
 #agenda .timings .row .time,
 #agenda .timings .row .summary {
     -webkit-transform-origin: 50% 50%;
@@ -5191,15 +5200,15 @@ section {
     font-size: 0.80em;
 }
 
-#agenda .timings .row .summary .orange-track {
+#agenda .orange-track {
     color: darkorange;
 }
 
-#agenda .timings .row .summary .green-track {
+#agenda  .green-track {
     color: limegreen;
 }
 
-#agenda .timings .row .summary .blue-track {
+#agenda .blue-track {
     color: darkturquoise;
 }
 
