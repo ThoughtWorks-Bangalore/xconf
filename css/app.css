@@ -5,6 +5,17 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
+
+@font-face {
+    font-family: Junction;
+    src: url("../fonts/Junction.otf") format("opentype");
+
+}
+
+body {
+    font-family:Junction, serif !important;
+}
+
 article,
 aside,
 details,
@@ -413,7 +424,7 @@ body {
     color: #222222;
     padding: 0;
     margin: 0;
-    font-family: "Segoe UI Light", Helvetica, "Segoe UI", Arial, sans-serif;
+    /*font-family: "Segoe UI Light", Helvetica, "Segoe UI", Arial, sans-serif;*/
     font-weight: 300;
     font-style: normal;
     line-height: 1;
@@ -576,7 +587,7 @@ p aside {
 
 /* Default header styles */
 h1, h2, h3, #archive .grid a .day, h4, h5, h6, #archive .grid a .month {
-    font-family: "Segoe UI Light", Helvetica, "Segoe UI", Arial, sans-serif;
+    /*font-family: "Segoe UI Light", Helvetica, "Segoe UI", Arial, sans-serif;*/
     font-weight: 300;
     font-style: normal;
     color: #222222;
