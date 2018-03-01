@@ -4951,6 +4951,10 @@ section {
     color: #b38600;
 }
 
+#intro .countdown .date {
+    margin-top : 21px;
+}
+
 #intro .countdown .date p {
     -webkit-animation: fadeInDown 1s 1s ease both;
     -moz-animation: fadeInDown 1s 1s ease both;
