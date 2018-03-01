@@ -510,7 +510,8 @@ p.lead {
 }
 
 p .theadings {
-    font-weight : bolder;
+    font-weight : bold;
+    font-size: 0.7em;
 }
 
 /* Typography resets */
