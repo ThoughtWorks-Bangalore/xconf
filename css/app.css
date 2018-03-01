@@ -4835,6 +4835,7 @@ button.large, .button.large {
     body {
         font-size: 112.5%;
     }
+
 }
 
 body {
@@ -5163,8 +5164,10 @@ section {
     color: black !important;
 }
 
+
 #agenda {
     padding: 5%;
+    font-size: 1.0em;
 }
 #agenda .row .time {
     color: hotpink;
@@ -5230,6 +5233,9 @@ section {
 }
 
 @media only screen and (min-width: 768px) {
+    #agenda {
+        font-size: 0.9em;
+    }
     #agenda .timings .row p {
         margin-bottom: 0;
     }
@@ -5269,6 +5275,13 @@ section {
         right: 1em;
         top: 50%;
         margin-top: -1.5em;
+    }
+}
+
+@media (max-width: 569px)
+{
+    #agenda {
+        font-size: 0.6em;
     }
 }
 
