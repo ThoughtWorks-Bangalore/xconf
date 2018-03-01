@@ -4947,6 +4947,7 @@ section {
 
 #intro .logo p {
     padding-top: 1em;
+    line-height: 2em;
 }
 #intro #xconf-heading {
     padding-top: 1em;
@@ -5367,6 +5368,7 @@ section {
 
 #about .social a i {
     display: inline-block;
+    vertical-align: middle;
 }
 
 #about .social a:before {
