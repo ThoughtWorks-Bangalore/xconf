@@ -6,16 +6,6 @@
  * Correct `block` display not defined in IE 8/9.
  */
 
-@font-face {
-    font-family: Junction;
-    src: url("../fonts/Junction.otf") format("opentype");
-
-}
-
-body {
-    font-family:Junction, serif !important;
-}
-
 article,
 aside,
 details,
