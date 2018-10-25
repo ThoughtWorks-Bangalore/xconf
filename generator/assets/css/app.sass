@@ -55,7 +55,6 @@ section
   .top-bar-section
     margin-left: 270px
   .fixed
-    opacity: .75
 
     @media only screen and (max-width:#{$small-screen})
       display: none
@@ -90,8 +89,14 @@ section
     img
       display: inline-block
       margin: 0 auto
-      height: 2em
+      height: auto
+      width: 100%
+      max-width: 600px
+      margin-bottom: -50px
       +animate(bounceInLeft, 1s, 0s)
+
+      @media only screen and (max-width:#{$small-screen})
+        margin-bottom: 0
 
     h1
       +animate(bounceInRight, 1s, 0s)
@@ -194,6 +199,7 @@ section
 
   +override-colors($main-fg,$main-bg)
   background: $merged-bg url("../img/white-bg-thatch.png")
+  min-height: auto
 
   .timings
     .row
@@ -287,6 +293,7 @@ section
   $alt-fg: $yellow
   +override-colors($main-fg,$main-bg)
   background-image: url(../img/dark-bg.jpg)
+  min-height: auto
 
   .social
     a

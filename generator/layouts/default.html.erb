@@ -9,7 +9,7 @@
                 <!-- Check in from Bangalore office -->
                 <h1>XConf Bangalore</h1>
 
-                <h5>is created by technologists, for technologists, who care deeply about the craft of software and its ability to make the world a better place.</h5>
+                <h5>is a conference for people of all roles in the technology world, even where disciplines intersect. It is aimed at showcasing emerging technologies and practices to leverage them for next-generation businesses. It is for everyone who is passionate about the craft of software and its ability to make the world a better place.</h5>
 
                 <% if @item[:subheader] %>
                     <h5 class="subheader">
@@ -105,15 +105,18 @@
         </div>
     </section>
 
+
+    <%= render '_location_section' %>
+
     <%= render '_about_section' %>
 
     <%= render '_agenda_section' %>
 
-    <%= render '_location_section' %>
-
     <%= render '_archive_section' %>
 
     <%= render '_header_section' %>
+
+    <%= render '_social_section' %>
 
     <%= render '_footer_section' %>
 

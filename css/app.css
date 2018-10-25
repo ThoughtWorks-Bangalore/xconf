@@ -362,7 +362,7 @@ meta.foundation-mq-large {
 
 html,
 body {
-  font-size: 140%; }
+  font-size: 120%; }
 
 body {
   background: white;
@@ -3637,17 +3637,15 @@ section {
   background: #f2f2f2; }
   #header .top-bar-section {
     margin-left: 270px; }
-  #header .fixed {
-    opacity: 0.75; }
-    @media only screen and (max-width: 768px) {
-      #header .fixed {
-        display: none; } }
-    #header .fixed .name h1 a {
-      width: auto; }
-      #header .fixed .name h1 a span {
-        font-weight: normal;
-        display: inline-block;
-        color: #b38600; }
+  @media only screen and (max-width: 768px) {
+    #header .fixed {
+      display: none; } }
+  #header .fixed .name h1 a {
+    width: auto; }
+    #header .fixed .name h1 a span {
+      font-weight: normal;
+      display: inline-block;
+      color: #b38600; }
 
 #intro {
   color: #222222;
@@ -3669,12 +3667,18 @@ section {
   #intro .logo img {
     display: inline-block;
     margin: 0 auto;
-    height: 2em;
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: -50px;
     -webkit-animation: bounceInLeft 1s 0s ease both;
     -moz-animation: bounceInLeft 1s 0s ease both;
     -ms-animation: bounceInLeft 1s 0s ease both;
     -o-animation: bounceInLeft 1s 0s ease both;
     animation: bounceInLeft 1s 0s ease both; }
+    @media only screen and (max-width: 768px) {
+      #intro .logo img {
+        margin-bottom: 0; } }
   #intro .logo h1 {
     -webkit-animation: bounceInRight 1s 0s ease both;
     -moz-animation: bounceInRight 1s 0s ease both;
@@ -3808,7 +3812,8 @@ section {
 #agenda {
   color: #222222;
   background: #b38600 url(../img/white-bg.png);
-  background: #dee3f1 url("../img/white-bg-thatch.png"); }
+  background: #dee3f1 url("../img/white-bg-thatch.png");
+  min-height: auto; }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda a, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
   #agenda code, #agenda abbr, #agenda acronym {
@@ -3900,7 +3905,8 @@ section {
   padding-top: 2em;
   color: white;
   background: #222222 url(../img/white-bg.png);
-  background-image: url(../img/dark-bg.jpg); }
+  background-image: url(../img/dark-bg.jpg);
+  min-height: auto; }
   #about h1, #about h2, #about h3, #about #archive .grid a .day, #archive .grid a #about .day, #about h4, #about h5, #about h6, #about #archive .grid a .month, #archive .grid a #about .month, #about .subheader, #about p, #about blockquote, #about a, #about small, #about #archive .grid a .year, #archive .grid a #about .year {
     color: white; }
   #about code, #about abbr, #about acronym {
