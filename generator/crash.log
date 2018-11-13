@@ -1,105 +1,81 @@
-Crashlog created at 2018-11-13 15:05:02 +0530
+Crashlog created at 2018-11-13 17:38:38 +0530
 
 ===== MESSAGE:
 
-Sass::SyntaxError: Invalid CSS after "height": expected selector, was "" 100%"
+Sass::SyntaxError: Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 2 spaces.
 
 ===== COMPILATION STACK:
 
-  - [item]   /css/app.sass/ (rep default)
+  (empty)
 
 ===== STACK TRACE:
 
-  0. assets/css/app.sass:279
-  1. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
-  2. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1085:in `expected'
-  3. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/scss/static_parser.rb:21:in `parse_selector'
-  4. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:314:in `visit_rule'
-  5. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-  6. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-  7. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-  8. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
-  9. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-  10. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-  11. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-  12. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-  13. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-  14. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-  15. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-  16. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-  17. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-  18. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
-  19. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-  20. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-  21. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-  22. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-  23. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-  24. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-  25. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-  26. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-  27. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-  28. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
-  29. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-  30. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-  31. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-  32. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-  33. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-  34. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-  35. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-  36. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-  37. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
-  38. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
-  39. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
-  40. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
-  41. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/filters/sass.rb:20:in `run'
-  42. lib/sass_binary.rb:11:in `run_with_binary'
-  43. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/base/compilation/filter.rb:121:in `setup_and_run'
-  44. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/base/result_data/item_rep.rb:339:in `filter'
-  45. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/base/compilation/item_rep_proxy.rb:47:in `filter'
-  46. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/base/compilation/rule_context.rb:61:in `filter'
-  47. ./Rules:17:in `block in load'
-  48. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/base/compilation/rule.rb:70:in `instance_eval'
-  49. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/base/compilation/rule.rb:70:in `apply_to'
-  50. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:385:in `compile_rep'
-  51. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:341:in `block in compile_reps'
-  52. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:334:in `loop'
-  53. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:334:in `compile_reps'
-  54. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:89:in `run'
-  55. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/base/source_data/site.rb:58:in `compile'
-  56. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/cli/commands/compile.rb:397:in `block in run'
-  57. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/cli/commands/compile.rb:438:in `run_listeners_while'
-  58. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/cli/commands/compile.rb:396:in `run'
-  59. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/cli/command_runner.rb:14:in `block in call'
-  60. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/cli/error_handler.rb:74:in `handle_while'
-  61. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  62. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/cli/command_runner.rb:13:in `call'
-  63. /usr/local/lib/ruby/gems/2.5.0/gems/cri-2.15.1/lib/cri/command_dsl.rb:303:in `block in runner'
-  64. /usr/local/lib/ruby/gems/2.5.0/gems/cri-2.15.1/lib/cri/command.rb:359:in `run_this'
-  65. /usr/local/lib/ruby/gems/2.5.0/gems/cri-2.15.1/lib/cri/command.rb:296:in `run'
-  66. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/cli/commands/nanoc.rb:39:in `block in define'
-  67. /usr/local/lib/ruby/gems/2.5.0/gems/cri-2.15.1/lib/cri/command.rb:359:in `run_this'
-  68. /usr/local/lib/ruby/gems/2.5.0/gems/cri-2.15.1/lib/cri/command.rb:296:in `run'
-  69. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/cli.rb:59:in `block in run'
-  70. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/cli/error_handler.rb:74:in `handle_while'
-  71. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  72. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib/nanoc/cli.rb:57:in `run'
-  73. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/bin/nanoc:19:in `<top (required)>'
-  74. /usr/local/bin/nanoc:23:in `load'
+  0. assets/css/app.sass:90
+  1. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/sass-3.2.19/lib/sass/engine.rb:424:in `block in tabulate'
+  2. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/sass-3.2.19/lib/sass/engine.rb:382:in `each'
+  3. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/sass-3.2.19/lib/sass/engine.rb:382:in `each_with_index'
+  4. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/sass-3.2.19/lib/sass/engine.rb:382:in `tabulate'
+  5. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/sass-3.2.19/lib/sass/engine.rb:345:in `_to_tree'
+  6. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+  7. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+  8. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib/nanoc/filters/sass.rb:20:in `run'
+  9. lib/sass_binary.rb:11:in `run_with_binary'
+  10. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib/nanoc/base/compilation/filter.rb:121:in `setup_and_run'
+  11. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib/nanoc/base/result_data/item_rep.rb:339:in `filter'
+  12. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib/nanoc/base/compilation/item_rep_proxy.rb:47:in `filter'
+  13. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib/nanoc/base/compilation/rule_context.rb:61:in `filter'
+  14. ./Rules:17:in `block in load'
+  15. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib/nanoc/base/compilation/rule.rb:70:in `instance_eval'
+  16. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib/nanoc/base/compilation/rule.rb:70:in `apply_to'
+  17. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:385:in `compile_rep'
+  18. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:341:in `block in compile_reps'
+  19. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:334:in `loop'
+  20. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:334:in `compile_reps'
+  21. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:89:in `run'
+  22. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib/nanoc/base/source_data/site.rb:58:in `compile'
+  23. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:65:in `block in recompile'
+  24. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:63:in `chdir'
+  25. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:63:in `recompile'
+  26. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:28:in `run_on_changes'
+  27. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:99:in `block in run_supervised_task'
+  28. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:97:in `catch'
+  29. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:97:in `run_supervised_task'
+  30. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:144:in `block in run_first_task_found'
+  31. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:142:in `each'
+  32. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:142:in `run_first_task_found'
+  33. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:79:in `block in run_on_changes'
+  34. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:175:in `block (3 levels) in scoped_guards'
+  35. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:173:in `each'
+  36. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:173:in `block (2 levels) in scoped_guards'
+  37. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:172:in `catch'
+  38. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:172:in `block in scoped_guards'
+  39. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:170:in `each'
+  40. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:170:in `scoped_guards'
+  41. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard/runner.rb:72:in `run_on_changes'
+  42. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard.rb:123:in `block (2 levels) in setup_listener'
+  43. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard.rb:387:in `block in within_preserved_state'
+  44. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard.rb:384:in `synchronize'
+  45. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard.rb:384:in `within_preserved_state'
+  46. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib/guard.rb:122:in `block in setup_listener'
+  47. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/listen-1.3.1/lib/listen/listener.rb:252:in `on_change'
+  48. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/listen-1.3.1/lib/listen/listener.rb:290:in `block in initialize_adapter'
+  49. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/listen-1.3.1/lib/listen/adapter.rb:252:in `report_changes'
+  50. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/listen-1.3.1/lib/listen/adapter.rb:321:in `poll_changed_directories'
 
 ===== VERSION INFORMATION:
 
 nanoc 3.6.11 © 2007-2014 Denis Defreyne.
-Running ruby 2.5.3 (2018-10-18) on x86_64-darwin18 with RubyGems 2.7.7.
+Running ruby 2.5.0 (2017-12-25) on x86_64-darwin15 with RubyGems 2.7.3.
 
 ===== SYSTEM INFORMATION:
 
-Darwin arunachalam.local 18.0.0 Darwin Kernel Version 18.0.0: Wed Aug 22 20:13:40 PDT 2018; root:xnu-4903.201.2~1/RELEASE_X86_64 x86_64
+Darwin inptyagi.local 15.6.0 Darwin Kernel Version 15.6.0: Tue Jan 30 11:45:51 PST 2018; root:xnu-3248.73.8~1/RELEASE_X86_64 x86_64
 
 ===== INSTALLED GEMS:
 
   activesupport 4.2.10
   adsf 1.1.1
-  bundler 1.16.2
+  bundler 1.17.1
   coderay 1.1.2
   colored 1.2
   concurrent-ruby 1.0.5
@@ -128,77 +104,71 @@ Darwin arunachalam.local 18.0.0 Darwin Kernel Version 18.0.0: Wed Aug 22 20:13:4
 
 ===== ENVIRONMENT:
 
-ANDROID_HOME => "/Users/YourUser/Library/Android/sdk"
-API_KEY => "recruitx"
-API_URL => "http://localhost:4000"
-AWS_ACCESS_KEY_ID => "AKIAJDHGO55ZY7NSRVJQ"
-AWS_BUCKET => "recruitx-feedback-image"
-AWS_DOWNLOAD_URL => "s3.amazonaws.com/recruitx-feedback-image/uploads/"
-AWS_SECRET_ACCESS_KEY => "qGIFStppeXIJaxrrHcyFMG1iiYf0UK4H0BZe5liY"
-Apple_PubSub_Socket_Render => "/private/tmp/com.apple.launchd.eAvWv6Gcci/Render"
+ANDROID_HOME => "/Users/ptyagi/Library/Android/sdk"
+AUTOFEATURE => "true autotest"
+Apple_PubSub_Socket_Render => "/private/tmp/com.apple.launchd.ggckmDGtYD/Render"
+BASH_IT => "/Users/ptyagi/bash-it"
+BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE => "1"
+BASH_IT_THEME => "bobby"
 BUNDLER_ORIG_BUNDLER_ORIG_MANPATH => "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL"
 BUNDLER_ORIG_BUNDLER_VERSION => "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL"
 BUNDLER_ORIG_BUNDLE_BIN_PATH => "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL"
 BUNDLER_ORIG_BUNDLE_GEMFILE => "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL"
-BUNDLER_ORIG_GEM_HOME => "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL"
-BUNDLER_ORIG_GEM_PATH => "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL"
+BUNDLER_ORIG_GEM_HOME => "/Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight"
+BUNDLER_ORIG_GEM_PATH => "/Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight:/Users/ptyagi/.rbenv/versions/2.5.0/gemsets/global:/Users/ptyagi/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0"
 BUNDLER_ORIG_MANPATH => "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL"
-BUNDLER_ORIG_PATH => "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin"
+BUNDLER_ORIG_PATH => "/Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/bin:/Users/ptyagi/.rbenv/versions/2.5.0/gemsets/global/bin:/Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/bin:/Users/ptyagi/.rbenv/libexec:/Users/ptyagi/.rbenv/plugins/ruby-build/bin:/Users/ptyagi/.rbenv/plugins/rbenv-vars/bin:/Users/ptyagi/.rbenv/plugins/rbenv-update/bin:/Users/ptyagi/.rbenv/plugins/rbenv-gemset/bin:/usr/local/opt/tomcat@8.0/bin:/usr/local/Cellar/imagemagick/7.0.7-21/include:/usr/local/Cellar/imagemagick/7.0.7-21/lib/pkgconfig:/Users/ptyagi/.rbenv/bin:/Users/ptyagi/.rbenv/bin:/Users/ptyagi/.rbenv/shims:/Users/ptyagi/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/ptyagi/Library/Android/sdk/tools:/Users/ptyagi/Library/Android/sdk/platform-tools"
 BUNDLER_ORIG_RB_USER_INSTALL => "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL"
-BUNDLER_ORIG_RUBYLIB => "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL"
+BUNDLER_ORIG_RUBYLIB => "/Users/ptyagi/.rbenv/rbenv.d/exec/gem-rehash:"
 BUNDLER_ORIG_RUBYOPT => "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL"
-BUNDLER_VERSION => "1.16.2"
-BUNDLE_BIN_PATH => "/usr/local/lib/ruby/gems/2.5.0/gems/bundler-1.16.2/exe/bundle"
-BUNDLE_GEMFILE => "/Users/ganesan/work/XConf-Bangalore-2018/generator/Gemfile"
-COLORFGBG => "12;8"
+BUNDLER_VERSION => "1.17.1"
+BUNDLE_BIN_PATH => "/Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/bundler-1.17.1/exe/bundle"
+BUNDLE_GEMFILE => "/Users/ptyagi/xconf/xconf/generator/Gemfile"
+COLORFGBG => "7;0"
 COLORTERM => "truecolor"
-CONSOLIDATED_FEEDBACK_RECIPIENT_EMAIL_ADDRESSES => "recruitx@thoughtworks.com"
-DEFAULT_FROM_EMAIL_ADDRESS => "recruitx@thoughtworks.com"
-DEFAULT_TO_EMAIL_ADDRESSES => "recruitx@thoughtworks.com"
-DEPLOY_CHANNEL => "dev"
-EMAIL_POSTFIX => "@thoughtworks.com"
-GEM_HOME => "/usr/local/lib/ruby/gems/2.5.0"
-GEM_PATH => "/usr/local/lib/ruby/gems/2.5.0:/Users/ganesan/.gem/ruby/2.5.0:/usr/local/Cellar/ruby/2.5.3/lib/ruby/gems/2.5.0"
-HOME => "/Users/ganesan"
+COLUMNS => "101"
+GEM_HOME => "/Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight"
+GEM_PATH => "/Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight:/Users/ptyagi/.rbenv/versions/2.5.0/gemsets/global:/Users/ptyagi/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0"
+GITAWAREPROMPT => "/Users/ptyagi/.bash/git-aware-prompt"
+GIT_HOSTING => "git@git.domain.com"
+GREP_COLOR => "1;33"
+GUARD_NOTIFICATIONS => "---\n- :name: :terminal_title\n  :options: {}\n"
+GUARD_NOTIFY => "true"
+HISTCONTROL => "ignorespace:erasedups"
+HISTSIZE => "5000"
+HOME => "/Users/ptyagi"
+IRC_CLIENT => "irssi"
 ITERM_PROFILE => "Default"
-ITERM_SESSION_ID => "w0t1p0:A5D1263A-4431-4F9C-9534-252F65929BA0"
-JAVA_HOME => "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home"
-JIGSAW_TOKEN => "e198f14fad12dbcc49edd9d204d85eac"
-JIGSAW_URL => "https://jigsaw.thoughtworks.com/api/people/"
-LC_CTYPE => "UTF-8"
-LESS => "-R"
-LOGNAME => "ganesan"
-LSCOLORS => "Gxfxcxdxbxegedabagacad"
-MONTHLY_STATUS_UPDATE_RECIPIENT_EMAIL_ADDRESSES => "chennai@thoughtworks.com"
-OKTA_API_KEY => "SSWS 003mJ1H-O5FQj-is6Id_ijg6SKtM1cZfkWPMBCsv2Z"
-OKTA_PREVIEW => "https://dev-420018.oktapreview.com/"
-OKTA_URL => "https://dev-164038.oktapreview.com"
-OLDPWD => "/Users/ganesan/work/XConf-Bangalore-2018"
-PAGER => "less"
-PATH => "/usr/local/lib/ruby/gems/2.5.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin"
-PWD => "/Users/ganesan/work/XConf-Bangalore-2018/generator"
-QUARTERLY_STATUS_UPDATE_RECIPIENT_EMAIL_ADDRESSES => "chennai@thoughtworks.com"
-RUBYLIB => "/usr/local/Cellar/ruby/2.5.3/lib/ruby/2.5.0"
+ITERM_SESSION_ID => "w0t0p0:D60F96B9-3002-446B-8FE8-B2B14F072EB6"
+JAVA_HOME => "/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home"
+LANG => "en_US.UTF-8"
+LINES => "51"
+LOGNAME => "ptyagi"
+LSCOLORS => "Gxfxcxdxdxegedabagacad"
+PATH => "/Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/bin:/Users/ptyagi/.rbenv/versions/2.5.0/gemsets/global/bin:/Users/ptyagi/.rbenv/libexec:/Users/ptyagi/.rbenv/plugins/ruby-build/bin:/Users/ptyagi/.rbenv/plugins/rbenv-vars/bin:/Users/ptyagi/.rbenv/plugins/rbenv-update/bin:/Users/ptyagi/.rbenv/plugins/rbenv-gemset/bin:/usr/local/opt/tomcat@8.0/bin:/usr/local/Cellar/imagemagick/7.0.7-21/include:/usr/local/Cellar/imagemagick/7.0.7-21/lib/pkgconfig:/Users/ptyagi/.rbenv/bin:/Users/ptyagi/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/ptyagi/Library/Android/sdk/tools:/Users/ptyagi/Library/Android/sdk/platform-tools"
+PWD => "/Users/ptyagi/xconf/xconf/generator"
+RBENV_DIR => "/Users/ptyagi/xconf/xconf/generator"
+RBENV_GEMSET_ALREADY => "yes"
+RBENV_HOOK_PATH => "/Users/ptyagi/.rbenv/rbenv.d:/usr/local/etc/rbenv.d:/etc/rbenv.d:/usr/lib/rbenv/hooks:/Users/ptyagi/.rbenv/plugins/rbenv-gemset/etc/rbenv.d:/Users/ptyagi/.rbenv/plugins/rbenv-vars/etc/rbenv.d"
+RBENV_ROOT => "/Users/ptyagi/.rbenv"
+RBENV_SHELL => "bash"
+RBENV_VERSION => "2.5.0"
+RUBYLIB => "/Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/bundler-1.17.1/lib:/Users/ptyagi/.rbenv/rbenv.d/exec/gem-rehash"
 RUBYOPT => "-rbundler/setup"
-SHELL => "/bin/zsh"
+SCM_CHECK => "true"
+SHELL => "/bin/bash"
 SHLVL => "1"
-SMTP_PORT => "1025"
-SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS => "/Users/ganesan/Library/WebKit/Databases"
-SSH_AUTH_SOCK => "/private/tmp/com.apple.launchd.PM9SWL4MtE/Listeners"
+SSH_AUTH_SOCK => "/private/tmp/com.apple.launchd.99jLJbC63g/Listeners"
 TERM => "xterm-256color"
 TERM_PROGRAM => "iTerm.app"
-TERM_PROGRAM_VERSION => "3.2.5"
-TERM_SESSION_ID => "w0t1p0:A5D1263A-4431-4F9C-9534-252F65929BA0"
-TMPDIR => "/var/folders/gn/6gzw8hvj1cbfsz83ggvjrrfc0000gp/T/"
-USER => "ganesan"
-VERSION => "3.1.0"
-WEEKLY_SIGNUP_REMINDER_RECIPIENT_EMAIL_ADDRESSES => "chennai@thoughtworks.com"
-WEEKLY_STATUS_UPDATE_RECIPIENT_EMAIL_ADDRESSES => "recruitx@thoughtworks.com"
+TERM_PROGRAM_VERSION => "3.1.5"
+TERM_SESSION_ID => "w0t0p0:D60F96B9-3002-446B-8FE8-B2B14F072EB6"
+TMPDIR => "/var/folders/_n/h6d3xpmx68z1tmzybydgr8p40000gq/T/"
+TODO => "t"
+USER => "ptyagi"
 XPC_FLAGS => "0x0"
 XPC_SERVICE_NAME => "0"
-ZSH => "/Users/ganesan/.oh-my-zsh"
-_ => "/usr/local/bin/nanoc"
-__CF_USER_TEXT_ENCODING => "0x1F6:0x0:0x0"
+__CF_USER_TEXT_ENCODING => "0x1F7:0x0:0x0"
 
 ===== GEMFILE.LOCK:
 
@@ -274,41 +244,41 @@ BUNDLED WITH
 
 ===== LOAD PATHS:
 
-  0. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib
-  1. /usr/local/lib/ruby/gems/2.5.0/gems/terminal-notifier-guard-1.5.3/lib
-  2. /usr/local/lib/ruby/gems/2.5.0/gems/sass-3.2.19/lib
-  3. /usr/local/lib/ruby/gems/2.5.0/gems/multi_json-1.8.4/lib
-  4. /usr/local/lib/ruby/gems/2.5.0/gems/guard-nanoc-1.0.2/lib
-  5. /usr/local/lib/ruby/gems/2.5.0/gems/nanoc-3.6.11/lib
-  6. /usr/local/lib/ruby/gems/2.5.0/gems/guard-1.8.3/lib
-  7. /usr/local/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib
-  8. /usr/local/lib/ruby/gems/2.5.0/gems/pry-0.11.3/lib
-  9. /usr/local/lib/ruby/gems/2.5.0/gems/method_source-0.9.0/lib
-  10. /usr/local/lib/ruby/gems/2.5.0/gems/lumberjack-1.0.13/lib
-  11. /usr/local/lib/ruby/gems/2.5.0/gems/listen-1.3.1/lib
-  12. /usr/local/lib/ruby/gems/2.5.0/gems/rb-kqueue-0.2.5/lib
-  13. /usr/local/lib/ruby/gems/2.5.0/gems/rb-inotify-0.9.10/lib
-  14. /usr/local/lib/ruby/gems/2.5.0/gems/rb-fsevent-0.10.3/lib
-  15. /usr/local/lib/ruby/gems/2.5.0/gems/formatador-0.2.5/lib
-  16. /usr/local/lib/ruby/gems/2.5.0/gems/ffi-1.9.25/lib
-  17. /usr/local/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-18/2.5.0/ffi-1.9.25
-  18. /usr/local/lib/ruby/gems/2.5.0/gems/cri-2.15.1/lib
-  19. /usr/local/lib/ruby/gems/2.5.0/gems/colored-1.2/lib
-  20. /usr/local/lib/ruby/gems/2.5.0/gems/coderay-1.1.2/lib
-  21. /usr/local/lib/ruby/gems/2.5.0/gems/bundler-1.16.2/lib
-  22. /usr/local/lib/ruby/gems/2.5.0/gems/adsf-1.1.1/lib
-  23. /usr/local/lib/ruby/gems/2.5.0/gems/rack-2.0.5/lib
-  24. /usr/local/lib/ruby/gems/2.5.0/gems/activesupport-4.2.10/lib
-  25. /usr/local/lib/ruby/gems/2.5.0/gems/tzinfo-1.2.5/lib
-  26. /usr/local/lib/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib
-  27. /usr/local/lib/ruby/gems/2.5.0/gems/minitest-5.11.3/lib
-  28. /usr/local/lib/ruby/gems/2.5.0/gems/i18n-0.9.5/lib
-  29. /usr/local/lib/ruby/gems/2.5.0/gems/concurrent-ruby-1.0.5/lib
-  30. /usr/local/lib/ruby/site_ruby/2.5.0
-  31. /usr/local/lib/ruby/site_ruby/2.5.0/x86_64-darwin18
-  32. /usr/local/lib/ruby/site_ruby
-  33. /usr/local/lib/ruby/vendor_ruby/2.5.0
-  34. /usr/local/lib/ruby/vendor_ruby/2.5.0/x86_64-darwin18
-  35. /usr/local/lib/ruby/vendor_ruby
-  36. /usr/local/Cellar/ruby/2.5.3/lib/ruby/2.5.0
-  37. /usr/local/Cellar/ruby/2.5.3/lib/ruby/2.5.0/x86_64-darwin18
+  0. /Users/ptyagi/.rbenv/rbenv.d/exec/gem-rehash
+  1. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/bundler-1.17.1/lib
+  2. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/terminal-notifier-guard-1.5.3/lib
+  3. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/sass-3.2.19/lib
+  4. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/multi_json-1.8.4/lib
+  5. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-nanoc-1.0.2/lib
+  6. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/nanoc-3.6.11/lib
+  7. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/guard-1.8.3/lib
+  8. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/thor-0.20.0/lib
+  9. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/pry-0.11.3/lib
+  10. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/method_source-0.9.0/lib
+  11. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/lumberjack-1.0.13/lib
+  12. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/listen-1.3.1/lib
+  13. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/rb-kqueue-0.2.5/lib
+  14. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/rb-inotify-0.9.10/lib
+  15. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/rb-fsevent-0.10.3/lib
+  16. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/formatador-0.2.5/lib
+  17. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/ffi-1.9.25/lib
+  18. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/extensions/x86_64-darwin-15/2.5.0-static/ffi-1.9.25
+  19. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/cri-2.15.1/lib
+  20. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/colored-1.2/lib
+  21. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/coderay-1.1.2/lib
+  22. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/adsf-1.1.1/lib
+  23. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/rack-2.0.5/lib
+  24. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/activesupport-4.2.10/lib
+  25. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/tzinfo-1.2.5/lib
+  26. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/thread_safe-0.3.6/lib
+  27. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/minitest-5.11.3/lib
+  28. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/i18n-0.9.5/lib
+  29. /Users/ptyagi/.rbenv/versions/2.5.0/gemsets/geeknight/gems/concurrent-ruby-1.0.5/lib
+  30. /Users/ptyagi/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0
+  31. /Users/ptyagi/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/x86_64-darwin15
+  32. /Users/ptyagi/.rbenv/versions/2.5.0/lib/ruby/site_ruby
+  33. /Users/ptyagi/.rbenv/versions/2.5.0/lib/ruby/vendor_ruby/2.5.0
+  34. /Users/ptyagi/.rbenv/versions/2.5.0/lib/ruby/vendor_ruby/2.5.0/x86_64-darwin15
+  35. /Users/ptyagi/.rbenv/versions/2.5.0/lib/ruby/vendor_ruby
+  36. /Users/ptyagi/.rbenv/versions/2.5.0/lib/ruby/2.5.0
+  37. /Users/ptyagi/.rbenv/versions/2.5.0/lib/ruby/2.5.0/x86_64-darwin15
