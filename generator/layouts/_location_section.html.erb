@@ -1,11 +1,9 @@
 <section id="location" class="feature">
-    <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
-        <h2>Venue</h2>
-    </div>
-
     <div class="row">
         <div class="large-4 columns address" data--100-bottom-top="transform:translateX(-100%)" data--100-bottom="transform:translateX(0)">
-            <p><% if @item[:whitefield] %>
+            <p>
+            <h2>Venue</h2>
+            <% if @item[:whitefield] %>
                 <span>ThoughtWorks Technologies (India) Pvt Ltd</span>
                 <span>601/602, 6th Floor, Brigade Nalapad,</span>
                 <span>Mahadevapura,</span>
@@ -18,18 +16,6 @@
                 <span>Bangalore - 560034</span>
                 <span><small><a href="https://www.google.com/maps/place/ThoughtWorks+Koramangala/@12.929677,77.62785,15z/data=!4m5!3m4!1s0x0:0xc902779873f99e8f!8m2!3d12.9288269!4d77.6288488?hl=en-US" target="_blank" rel="nofollow">&laquo; Open in Google Maps &raquo;</a></small></span><% end %>
             </p>
-        </div>
-
-        <div class="large-8 columns map" data-anchor-target=".address" data--100-bottom-top="transform:translateX(100%)" data--100-bottom="transform:translateX(0)">
-            <%if @item[:whitefield] %>
-            <a href="https://www.google.com/maps/place/ThoughtWorks+Whitefield/@12.9926876,77.6998618,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae119f0770608b:0xd1289eeed1775998!8m2!3d12.9926824!4d77.7020558?hl=en-US" target="_blank" rel="nofollow">
-                <img src="./img/map.png" alt="Map" align="center" />
-            </a>
-            <%else %>
-            <a href="https://www.google.com/maps/place/ThoughtWorks+Koramangala/@12.929677,77.62785,15z/data=!4m5!3m4!1s0x0:0xc902779873f99e8f!8m2!3d12.9288269!4d77.6288488?hl=en-US" target="_blank" rel="nofollow">
-                <img src="./img/map.png" alt="Map" align="center" />
-            </a>
-            <% end %>
         </div>
     </div>
 </section>

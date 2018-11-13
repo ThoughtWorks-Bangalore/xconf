@@ -14,8 +14,7 @@
                 <ul class="right">
                     <li>
                     <% if latest[:participate] %>
-                        <a href="<%= latest[:participate] %>" target="_blank" rel="nofollow"
-                           onclick="ga('send', 'event', 'participate', 'participate')">
+                        <a href="<%= latest[:participate] %>">
                             Participate
                         </a>
                     <% end %>
@@ -29,7 +28,7 @@
                     <% end %>
                     </li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#agenda">Agenda</a></li>
+                    <!-- <li><a href="#agenda">Agenda</a></li> -->
                     <% if @item == latest %>
                         <li><a href="#location">Location</a></li>
                     <% end %>

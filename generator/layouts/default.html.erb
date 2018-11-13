@@ -1,90 +1,23 @@
 <% render '_layout', title: start_date.strftime("%b %Y") do %>
     <section id="intro" class="feature">
-        <div class="row logo">
-            <div class="large-12 columns">
-                <a href="http://www.thoughtworks.com" target="_blank"
-                   onclick="ga('send', 'event', 'tw', 'tw')">
-                    <img src="./img/tw-logo.png" alt="ThoughtWorks" align="center" />
-                </a>
-                <!-- Check in from Bangalore office -->
-                <h1>XConf Bangalore</h1>
-
-                <h5>is a conference for people of all roles in the technology world, even where disciplines intersect. It is aimed at showcasing emerging technologies and practices to leverage them for next-generation businesses. It is for everyone who is passionate about the craft of software and its ability to make the world a better place.</h5>
-
-                <% if @item[:subheader] %>
-                    <h5 class="subheader">
-                        <%= @item[:subheader] %> <br />
-                        <% if @item[:subnote] %>
-                            <small><%= @item[:subnote] %></small>
-                        <% end %>
-                    </h5>
-                <% end %>
-            </div>
-        </div>
-
-        <div class="row countdown">
-            <div class="small-8 small-offset-2 large-4 large-offset-0 columns date">
-                <p><%= @item[:edition] %><sup><%= @item[:edition].ordinal %></sup> edition</p>
-                <h4><%= start_date.strftime("%b %-d").downcase %></h4>
-            </div>
-            <div class="small-6 large-2 columns counter">
-                <h4><span id="days">&nbsp;</span></h4>
-                <p>days</p>
-            </div>
-            <div class="small-6 large-2 columns counter">
-                <h4><span id="hours">&nbsp;</span></h4>
-                <p>hours</p>
-            </div>
-            <div class="small-6 large-2 columns counter">
-                <h4><span id="minutes">&nbsp;</span></h4>
-                <p>minutes</p>
-            </div>
-            <div class="small-6 large-2 columns counter">
-                <h4 id="seconds">
-                    &nbsp; <!-- the nbsp is required -->
-                    <span id="tick">&nbsp;</span>
-                    <span id="tock">&nbsp;</span>
-                    <span id="tack">&nbsp;</span>
-                </h4>
-                <p>seconds</p>
-            </div>
-        </div>
-
         <div class="row actions">
-            <div class="large-offset-3 large-5 columns participate">
+            <div class="large-offset-4 large-4 columns participate">
                 <% if item[:participate] %>
-                    <a href="<%= @item[:participate] %>" target="_blank" rel="nofollow"
-                       onclick="ga('send', 'event', 'participate', 'participate')">
+                    <a href="<%= @item[:participate] %>">
                         <h4>Participate</h4>
                     </a>
-                    <p>
-                        to learn exciting new stuff <br />
-                        <small>(and to connect with fellow geeks)</small>
-                    </p>
                 <% else %>
                     <a href="javascript:void(0)">
 						<h4><strike>Participate</strike></h4>
                     </a>
-                    <% if start_date.future? %>
-                        <p>
-                            registrations not yet open <br />
-                            <small>(please check out in a few days)</small>
-                        </p>
-                    <% else %>
-                        <p>
-                            registrations closed <br />
-                            <small>(sorry, but check out next geek night)</small>
-                        </p>
-                    <% end %>
                 <% end %>
             </div>
         </div>
     </section>
 
+    <%= render '_about_section' %>
 
     <%= render '_location_section' %>
-
-    <%= render '_about_section' %>
 
     <!--    <%= render '_agenda_section' %> -->
 
@@ -94,10 +27,12 @@
 
     <!--    <%= render '_social_section' %> -->
 
+    <%= render '_participate_section' %>
+
     <%= render '_footer_section' %>
 
     <script>window.targetDate = new Date(<%= start_date.to_i %> * 1000)</script>
-    <script src="js/ticker.js"></script>
+    <!--    <script src="js/ticker.js"></script> -->
 
     <script src="js/skrollr.min.js"></script>
     <script>

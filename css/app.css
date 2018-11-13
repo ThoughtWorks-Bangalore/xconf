@@ -3619,9 +3619,6 @@ body {
 html {
   height: 100%; }
 
-section {
-  min-height: 100%; }
-
 .feature {
   padding: 1em 0 2em 0;
   position: relative;
@@ -3650,20 +3647,25 @@ section {
 #intro {
   color: #222222;
   background: white url(../img/white-bg.png);
-  background: url("../img/main.jpg");
+  background-position: center center;
+  background: url("../img/banner.png");
   background-size: cover;
-  border-radius: 0; }
+  border-radius: 0;
+  min-height: 100%; }
   #intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro a, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
     color: #222222; }
   #intro code, #intro abbr, #intro acronym {
     color: black; }
-  @media only screen and (min-width: 768px) {
-    #intro {
-      margin-top: 45px; } }
   #intro .row {
     background-color: rgba(255, 255, 255, 0.7);
-    margin-bottom: 0;
-    padding: 1em 0; }
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%; }
+  #intro.feature .row {
+    margin-bottom: 0; }
   #intro .logo img {
     display: inline-block;
     margin: 0 auto;
@@ -3880,21 +3882,42 @@ section {
     #agenda .timings .row:hover {
       background-color: #ffdf80; }
 
+#participate .participate-title {
+  text-align: center;
+  font-size: 30px;
+  margin: 30px auto;
+  font-weight: bold; }
+
 #location {
-  color: white;
+  color: #222222;
   background: #222222 url(../img/white-bg.png);
-  background-image: url(../img/dark-bg.jpg); }
+  background-image: url(../img/map.png);
+  background-position: center center;
+  background-size: cover; }
   #location h1, #location h2, #location h3, #location #archive .grid a .day, #archive .grid a #location .day, #location h4, #location h5, #location h6, #location #archive .grid a .month, #archive .grid a #location .month, #location .subheader, #location p, #location blockquote, #location a, #location small, #location #archive .grid a .year, #archive .grid a #location .year {
-    color: white; }
+    color: #222222; }
   #location code, #location abbr, #location acronym {
-    color: #d9d9d9; }
+    color: black; }
   #location .row {
     overflow: hidden; }
-  #location .address span {
-    display: block;
-    padding-bottom: 0.5em; }
-  #location .address a {
-    color: #b38600; }
+  #location .address {
+    position: relative; }
+    #location .address:before {
+      display: block;
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: white;
+      background: rgba(255, 255, 255, 0.8);
+      z-index: -1; }
+    #location .address span {
+      display: block;
+      padding-bottom: 0.5em; }
+    #location .address a {
+      color: #b38600; }
   @media only screen and (min-width: 768px) {
     #location .address p {
       text-align: right; }
@@ -4029,3 +4052,78 @@ section {
       line-height: 1em; }
       #footer .row p a {
         color: #664d00; }
+
+.mktoForm {
+  width: 100% !important;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative; }
+  @media only screen and (max-width: 768px) {
+    .mktoForm {
+      max-width: 500px; } }
+  .mktoForm .mktoButtonRow .mktoButtonWrap.mktoSimple .mktoButton {
+    border: none;
+    padding: 10px 15px;
+    background-color: #b38600;
+    background-image: none; }
+    .mktoForm .mktoButtonRow .mktoButtonWrap.mktoSimple .mktoButton:hover {
+      border: none;
+      background-color: black;
+      color: white; }
+  .mktoForm:after {
+    content: "";
+    clear: both;
+    display: table; }
+  .mktoForm .mktoFormRow {
+    width: 50%;
+    display: block;
+    float: left;
+    padding: 0 10px;
+    margin: 10px 0;
+    clear: none !important; }
+    @media only screen and (max-width: 768px) {
+      .mktoForm .mktoFormRow {
+        width: 100%;
+        float: none; } }
+    .mktoForm .mktoFormRow .mktoFormCol {
+      float: none; }
+      .mktoForm .mktoFormRow .mktoFormCol .mktoOffset:first-child {
+        display: none; }
+    .mktoForm .mktoFormRow:nth-child(6) {
+      clear: left !important; }
+    .mktoForm .mktoFormRow:nth-child(n+8):nth-child(-n+11) {
+      width: 100%;
+      margin: 0; }
+      .mktoForm .mktoFormRow:nth-child(n+8):nth-child(-n+11) .mktoRequiredField .mktoAsterix {
+        display: block;
+        position: absolute;
+        float: none;
+        top: 5px;
+        left: -15px; }
+      .mktoForm .mktoFormRow:nth-child(n+8):nth-child(-n+11) .mktoFieldWrap {
+        padding-left: 40px;
+        position: relative; }
+        .mktoForm .mktoFormRow:nth-child(n+8):nth-child(-n+11) .mktoFieldWrap label {
+          width: 100%;
+          position: relative; }
+        .mktoForm .mktoFormRow:nth-child(n+8):nth-child(-n+11) .mktoFieldWrap .mktoCheckboxList {
+          position: absolute;
+          left: 0;
+          top: 2px;
+          width: 40px; }
+    .mktoForm .mktoFormRow .mktoFieldWrap {
+      float: none; }
+      .mktoForm .mktoFormRow .mktoFieldWrap label {
+        width: auto !important;
+        max-width: 80%; }
+      .mktoForm .mktoFormRow .mktoFieldWrap input[type=text],
+      .mktoForm .mktoFormRow .mktoFieldWrap input[type=email] {
+        display: block;
+        width: 100% !important;
+        border: none;
+        border-bottom: solid 1px #bbbbbb;
+        padding: 6px 0; }
+      .mktoForm .mktoFormRow .mktoFieldWrap select {
+        display: block;
+        width: 100% !important;
+        margin-top: 10px; }

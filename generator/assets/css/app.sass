@@ -35,8 +35,6 @@ html
 //
 // SECTION STYLES
 //
-section
-  min-height: 100%
 
 .feature
   padding: 1em 0 2em 0
@@ -75,16 +73,22 @@ section
   $main-bg: $white
   $alt-fg: $yellow
   +override-colors($main-fg,$main-bg)
-  background: url("../img/main.jpg")
+  background-position: center center
+  background: url("../img/banner.png")
   background-size: cover
   border-radius: 0
+  min-height: 100%
 
-  @media #{$small}
-    margin-top: $topbar-height
   .row
     background-color: rgba(255,255,255,0.7)
-    margin-bottom: 0
     padding: 1em 0
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    max-width: 100%
+  &.feature .row 
+    margin-bottom: 0
   .logo
     img
       display: inline-block
@@ -259,18 +263,45 @@ section
         background-color: lighten($main-bg, 40%)
 
 //
+// PARTICIPATE
+//
+#participate
+
+  .participate-title
+    text-align: center
+    font-size: 30px
+    margin: 30px auto
+    font-weight: bold
+
+//
 // LOCATION SECTION
 //
 #location
-  $main-fg: $white
+  $main-fg: $dark
   $main-bg: $dark
   +override-colors($main-fg,$main-bg)
-  background-image: url(../img/dark-bg.jpg)
+  background-image: url(../img/map.png)
+  background-position: center center
+  background-size: cover
 
   .row
     overflow: hidden
 
   .address
+    position: relative
+
+    &:before
+      display: block
+      content: ''
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+      background: #ffffff
+      background: rgba(255, 255, 255, 0.8)
+      z-index: -1
+
     span
       display: block
       padding-bottom: .5em
@@ -423,3 +454,94 @@ section
       line-height: 1em
       a
         color: $alt-fg
+
+.mktoForm
+  width: 100% !important
+  max-width: 700px
+  margin: 0 auto
+  position: relative
+
+  @media only screen and (max-width:#{$small-screen})
+    max-width: 500px
+
+  .mktoButtonRow .mktoButtonWrap.mktoSimple .mktoButton
+    border: none
+    padding: 10px 15px
+    background-color: #b38600
+    background-image: none
+
+    &:hover
+      border: none
+      background-color: #000000
+      color: #ffffff
+
+  &:after
+    content: ""
+    clear: both
+    display: table
+
+  .mktoFormRow
+    width: 50%
+    display: block
+    float: left
+    padding: 0 10px
+    margin: 10px 0
+    clear: none !important
+
+    @media only screen and (max-width:#{$small-screen})
+      width: 100%
+      float: none
+
+    .mktoFormCol
+      float: none
+
+      .mktoOffset:first-child
+        display: none
+
+    &:nth-child(6)
+      clear: left !important
+
+    &:nth-child(n+8):nth-child(-n+11)
+      width: 100%
+      margin: 0
+      
+      .mktoRequiredField .mktoAsterix
+        display: block
+        position: absolute
+        float: none
+        top: 5px
+        left: -15px
+
+      .mktoFieldWrap
+        padding-left: 40px
+        position: relative
+
+        label
+          width: 100%
+          position: relative
+
+        .mktoCheckboxList
+          position: absolute
+          left: 0
+          top: 2px
+          width: 40px
+
+    .mktoFieldWrap
+      float: none
+
+      label
+        width: auto !important
+        max-width: 80%
+
+      input[type=text],
+      input[type=email]
+        display: block
+        width: 100% !important
+        border: none
+        border-bottom: solid 1px #bbbbbb
+        padding: 6px 0
+
+      select
+        display: block
+        width: 100% !important
+        margin-top: 10px
