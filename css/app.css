@@ -3650,7 +3650,10 @@ html {
   background: url("../img/banner-background.png");
   background-size: cover;
   border-radius: 0;
-  min-height: 100%; }
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   #intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro a, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
     color: #222222; }
   #intro code, #intro abbr, #intro acronym {
@@ -3667,21 +3670,18 @@ html {
     margin-bottom: 0; }
   #intro .tw-logo {
     height: 126px;
-    position: absolute;
-    top: 254px;
-    left: 500px; }
+    margin-top: 150px; }
   #intro .banner-logo {
     height: 166px;
-    top: 330px;
-    position: absolute;
-    left: 490px; }
+    position: relative;
+    top: -30px; }
   #intro .event-date {
     color: white;
-    position: absolute;
-    top: 508px;
-    left: 508px;
     padding: 0.5em;
-    font-size: larger; }
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    top: -20px; }
   #intro .logo img {
     display: inline-block;
     margin: 0 auto;
@@ -3779,11 +3779,11 @@ html {
   #intro .actions {
     padding-top: 1em; }
     #intro .actions .participate {
-      -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
-      -moz-animation: rotateInUpLeft 1s 1.5s ease both;
-      -ms-animation: rotateInUpLeft 1s 1.5s ease both;
-      -o-animation: rotateInUpLeft 1s 1.5s ease both;
-      animation: rotateInUpLeft 1s 1.5s ease both; }
+      -webkit-animation: fadeInUp 1s 1.5s ease both;
+      -moz-animation: fadeInUp 1s 1.5s ease both;
+      -ms-animation: fadeInUp 1s 1.5s ease both;
+      -o-animation: fadeInUp 1s 1.5s ease both;
+      animation: fadeInUp 1s 1.5s ease both; }
     #intro .actions .talk {
       -webkit-animation: rotateInUpRight 1s 1.5s ease both;
       -moz-animation: rotateInUpRight 1s 1.5s ease both;
@@ -3797,7 +3797,21 @@ html {
       -o-animation: fadeInUp 1s 2s ease both;
       animation: fadeInUp 1s 2s ease both; }
     #intro .actions a {
-      display: block; }
+      -webkit-transition: background-color 300ms ease-out;
+      -moz-transition: background-color 300ms ease-out;
+      transition: background-color 300ms ease-out;
+      background-color: #b38600;
+      border-color: #806000;
+      color: white;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      color: white;
+      background-color: #80ac73;
+      padding: 15px 20px; }
+      #intro .actions a:hover, #intro .actions a:focus {
+        background-color: #806000; }
+      #intro .actions a:hover, #intro .actions a:focus {
+        color: white; }
       #intro .actions a h4 {
         -webkit-transition: background-color 300ms ease-out;
         -moz-transition: background-color 300ms ease-out;
@@ -3829,16 +3843,13 @@ html {
       line-height: 2.5; }
 
 #agenda {
+  text-align: center;
   color: #222222;
-  min-height: auto;
   background-color: #99c47c; }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda a, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
   #agenda code, #agenda abbr, #agenda acronym {
     color: black; }
-  #agenda h4 {
-    position: absolute;
-    left: 616px; }
   #agenda .timings .row {
     border-left: solid 5px #ffdf80;
     border-bottom: 1px dashed #b38600;

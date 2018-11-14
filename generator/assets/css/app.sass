@@ -82,6 +82,9 @@ html
   background-size: cover
   border-radius: 0
   min-height: 100%
+  display: flex
+  flex-direction: column
+  align-items: center
 
   .row
     background-color: rgba(255,255,255,0.7)
@@ -96,23 +99,20 @@ html
 
   .tw-logo
     height: 126px
-    position: absolute
-    top: 254px
-    left: 500px
+    margin-top: 150px
 
   .banner-logo
     height: 166px
-    top: 330px
-    position: absolute
-    left: 490px
+    position: relative
+    top: -30px
 
   .event-date
     color: white
-    position: absolute
-    top: 508px
-    left: 508px
     padding: .5em
     font-size: larger
+    text-align: center
+    position: relative
+    top: -20px
 
   .logo
     img
@@ -189,7 +189,7 @@ html
     padding-top: 1em
 
     .participate
-      +animate(rotateInUpLeft, 1s, 1.5s)
+      +animate(fadeInUp, 1s, 1.5s)
 
     .talk
       +animate(rotateInUpRight, 1s, 1.5s)
@@ -198,7 +198,13 @@ html
       +animate(fadeInUp, 1s, 2s)
 
     a
-      display: block
+      +single-transition(background-color)
+      +button-style($alt-fg)
+      +radius
+      color: $main-bg
+      background-color: #80ac73
+      padding: 15px 20px
+
 
       &:hover
         //+animate(tada)
@@ -232,15 +238,13 @@ html
   $main-fg: $dark
   $main-bg: $yellow
   $alt-fg: $white
+  text-align: center
 
   +override-colors($main-fg,$main-bg)
   //background: $merged-bg url("../img/white-bg-thatch.png")
-  min-height: auto
   background-color: #99c47c
 
   h4
-    position: absolute
-    left: 616px
   .timings
     .row
       border-left: solid 5px lighten($main-bg, 40%)
