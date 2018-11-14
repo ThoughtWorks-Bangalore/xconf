@@ -3649,7 +3649,7 @@ html {
   color: #222222;
   background-position: center center;
   background: url("../img/banner.png");
-  background-size: 1417px 773px;
+  background-size: cover;
   border-radius: 0;
   min-height: 100%; }
   #intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro a, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
