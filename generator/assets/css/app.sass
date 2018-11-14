@@ -41,7 +41,7 @@ html
   position: relative
   overflow: hidden
   clear: both
-  background-color: rgba(153, 196, 124, 0.84)
+  background-color: rgba(34, 37, 31, 0.12)
 
   .row
     margin-bottom: 1em
@@ -74,8 +74,11 @@ html
   $main-bg: $white
   $alt-fg: $yellow
   +override-colors($main-fg,$main-bg)
-  background-position: center center
-  background: url("../img/banner.png")
+  //background-size: 100% auto
+  //background-repeat: no-repeat
+  //background-position: bottom center
+  //background-position: center 100%
+  background: url("../img/banner-background.png")
   background-size: cover
   border-radius: 0
   min-height: 100%
@@ -96,6 +99,12 @@ html
     position: absolute
     top: 254px
     left: 500px
+
+  .banner-logo
+    height: 166px
+    top: 330px
+    position: absolute
+    left: 490px
 
   .event-date
     color: white
@@ -206,7 +215,8 @@ html
         position: absolute
         top: 600px
         left: 600px
-        background-color: #ebe038
+        background-color: #80ac73
+        margin-top: -1.25em
 
       @media only screen and (max-width:#{$small-screen})
         padding: .5em
@@ -491,7 +501,7 @@ html
   .mktoButtonRow .mktoButtonWrap.mktoSimple .mktoButton
     border: none
     padding: 10px 15px
-    background-color: #ebe038
+    background-color: #80ac73
     background-image: none
 
     &:hover

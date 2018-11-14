@@ -3624,7 +3624,7 @@ html {
   position: relative;
   overflow: hidden;
   clear: both;
-  background-color: rgba(153, 196, 124, 0.84); }
+  background-color: rgba(34, 37, 31, 0.12); }
   .feature .row {
     margin-bottom: 1em;
     max-width: 1000px;
@@ -3647,8 +3647,7 @@ html {
 
 #intro {
   color: #222222;
-  background-position: center center;
-  background: url("../img/banner.png");
+  background: url("../img/banner-background.png");
   background-size: cover;
   border-radius: 0;
   min-height: 100%; }
@@ -3671,6 +3670,11 @@ html {
     position: absolute;
     top: 254px;
     left: 500px; }
+  #intro .banner-logo {
+    height: 166px;
+    top: 330px;
+    position: absolute;
+    left: 490px; }
   #intro .event-date {
     color: white;
     position: absolute;
@@ -3811,7 +3815,8 @@ html {
         position: absolute;
         top: 600px;
         left: 600px;
-        background-color: #ebe038; }
+        background-color: #80ac73;
+        margin-top: -1.25em; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
           background-color: #806000; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
@@ -4070,7 +4075,7 @@ html {
   .mktoForm .mktoButtonRow .mktoButtonWrap.mktoSimple .mktoButton {
     border: none;
     padding: 10px 15px;
-    background-color: #ebe038;
+    background-color: #80ac73;
     background-image: none; }
     .mktoForm .mktoButtonRow .mktoButtonWrap.mktoSimple .mktoButton:hover {
       border: none;
