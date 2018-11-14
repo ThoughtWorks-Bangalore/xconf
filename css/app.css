@@ -3649,7 +3649,7 @@ html {
   background: white url(../img/white-bg.png);
   background-position: center center;
   background: url("../img/banner.png");
-  background-size: cover;
+  background-size: 1417px 773px;
   border-radius: 0;
   min-height: 100%; }
   #intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro a, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
@@ -3666,6 +3666,11 @@ html {
     max-width: 100%; }
   #intro.feature .row {
     margin-bottom: 0; }
+  #intro .tw-logo {
+    height: 150px;
+    position: absolute;
+    top: 230px;
+    left: 400px; }
   #intro .logo img {
     display: inline-block;
     margin: 0 auto;
@@ -3798,8 +3803,12 @@ html {
         -webkit-border-radius: 3px;
         border-radius: 3px;
         color: white;
-        padding: 0.25em;
-        margin-bottom: 0.25em; }
+        margin-bottom: 0.25em;
+        padding-right: 0.75em;
+        padding-left: 0.75em;
+        position: absolute;
+        top: 600px;
+        left: 600px; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
           background-color: #806000; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
@@ -3928,7 +3937,7 @@ html {
   padding-top: 2em;
   color: white;
   background: #222222 url(../img/white-bg.png);
-  background-image: url(../img/dark-bg.jpg);
+  background: #99c47c;
   min-height: auto; }
   #about h1, #about h2, #about h3, #about #archive .grid a .day, #archive .grid a #about .day, #about h4, #about h5, #about h6, #about #archive .grid a .month, #archive .grid a #about .month, #about .subheader, #about p, #about blockquote, #about a, #about small, #about #archive .grid a .year, #archive .grid a #about .year {
     color: white; }
@@ -3985,7 +3994,8 @@ html {
       color: #b38600; }
     #about blockquote cite {
       margin: 0.25em 0;
-      text-align: right; }
+      text-align: right;
+      color: white; }
 
 #archive {
   color: #222222;

@@ -75,7 +75,7 @@ html
   +override-colors($main-fg,$main-bg)
   background-position: center center
   background: url("../img/banner.png")
-  background-size: 2014px 1024px
+  background-size: 1417px 773px
   border-radius: 0
   min-height: 100%
 
@@ -89,6 +89,13 @@ html
     max-width: 100%
   &.feature .row 
     margin-bottom: 0
+
+  .tw-logo
+    height: 150px
+    position: absolute
+    top: 230px
+    left: 400px
+
   .logo
     img
       display: inline-block
@@ -183,8 +190,12 @@ html
         +button-style($alt-fg)
         +radius
         color: $main-bg
-        padding: .25em
         margin-bottom: .25em
+        padding-right: 0.75em
+        padding-left: 0.75em
+        position: absolute
+        top: 600px
+        left: 600px
 
       @media only screen and (max-width:#{$small-screen})
         padding: .5em
@@ -323,7 +334,7 @@ html
   $main-bg: $dark
   $alt-fg: $yellow
   +override-colors($main-fg,$main-bg)
-  background-image: url(../img/dark-bg.jpg)
+  background: #99c47c
   min-height: auto
 
   .social
@@ -379,6 +390,7 @@ html
     cite
       margin: .25em 0
       text-align: right
+      color: white
 
 //
 // ARCHIVE AREA
