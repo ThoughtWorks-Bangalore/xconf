@@ -21,7 +21,7 @@
 
 =override-colors($main-fg,$main-bg)
   color: $main-fg
-  background: $main-bg url(../img/white-bg.png)
+  //background: $main-bg url(../img/white-bg.png)
 
   h1, h2, h3, h4, h5, h6, .subheader, p, blockquote, a, small
     color: $main-fg
@@ -41,6 +41,7 @@ html
   position: relative
   overflow: hidden
   clear: both
+  background-color: rgba(153, 196, 124, 0.84)
 
   .row
     margin-bottom: 1em
@@ -91,10 +92,18 @@ html
     margin-bottom: 0
 
   .tw-logo
-    height: 150px
+    height: 126px
     position: absolute
-    top: 230px
-    left: 400px
+    top: 254px
+    left: 500px
+
+  .event-date
+    color: white
+    position: absolute
+    top: 508px
+    left: 508px
+    padding: .5em
+    font-size: larger
 
   .logo
     img
@@ -191,11 +200,13 @@ html
         +radius
         color: $main-bg
         margin-bottom: .25em
+        padding-top: 0.15em
         padding-right: 0.75em
         padding-left: 0.75em
         position: absolute
         top: 600px
         left: 600px
+        background-color: #ebe038
 
       @media only screen and (max-width:#{$small-screen})
         padding: .5em
@@ -213,8 +224,9 @@ html
   $alt-fg: $white
 
   +override-colors($main-fg,$main-bg)
-  background: $merged-bg url("../img/white-bg-thatch.png")
+  //background: $merged-bg url("../img/white-bg-thatch.png")
   min-height: auto
+  background-color: rgb(129, 172, 116)
 
   .timings
     .row
@@ -277,12 +289,12 @@ html
 // PARTICIPATE
 //
 #participate
-
   .participate-title
     text-align: center
-    font-size: 30px
     margin: 30px auto
-    font-weight: bold
+  //  font-size: 30px
+
+  //  font-weight: bold
 
 //
 // LOCATION SECTION

@@ -3623,7 +3623,8 @@ html {
   padding: 1em 0 2em 0;
   position: relative;
   overflow: hidden;
-  clear: both; }
+  clear: both;
+  background-color: rgba(153, 196, 124, 0.84); }
   .feature .row {
     margin-bottom: 1em;
     max-width: 1000px;
@@ -3646,7 +3647,6 @@ html {
 
 #intro {
   color: #222222;
-  background: white url(../img/white-bg.png);
   background-position: center center;
   background: url("../img/banner.png");
   background-size: 1417px 773px;
@@ -3667,10 +3667,17 @@ html {
   #intro.feature .row {
     margin-bottom: 0; }
   #intro .tw-logo {
-    height: 150px;
+    height: 126px;
     position: absolute;
-    top: 230px;
-    left: 400px; }
+    top: 254px;
+    left: 500px; }
+  #intro .event-date {
+    color: white;
+    position: absolute;
+    top: 508px;
+    left: 508px;
+    padding: 0.5em;
+    font-size: larger; }
   #intro .logo img {
     display: inline-block;
     margin: 0 auto;
@@ -3804,11 +3811,13 @@ html {
         border-radius: 3px;
         color: white;
         margin-bottom: 0.25em;
+        padding-top: 0.15em;
         padding-right: 0.75em;
         padding-left: 0.75em;
         position: absolute;
         top: 600px;
-        left: 600px; }
+        left: 600px;
+        background-color: #ebe038; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
           background-color: #806000; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
@@ -3822,9 +3831,8 @@ html {
 
 #agenda {
   color: #222222;
-  background: #b38600 url(../img/white-bg.png);
-  background: #dee3f1 url("../img/white-bg-thatch.png");
-  min-height: auto; }
+  min-height: auto;
+  background-color: #81ac74; }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda a, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
   #agenda code, #agenda abbr, #agenda acronym {
@@ -3893,13 +3901,10 @@ html {
 
 #participate .participate-title {
   text-align: center;
-  font-size: 30px;
-  margin: 30px auto;
-  font-weight: bold; }
+  margin: 30px auto; }
 
 #location {
   color: #222222;
-  background: #222222 url(../img/white-bg.png);
   background-image: url(../img/map.png);
   background-position: center center;
   background-size: cover; }
@@ -3936,7 +3941,6 @@ html {
 #about {
   padding-top: 2em;
   color: white;
-  background: #222222 url(../img/white-bg.png);
   background: #99c47c;
   min-height: auto; }
   #about h1, #about h2, #about h3, #about #archive .grid a .day, #archive .grid a #about .day, #about h4, #about h5, #about h6, #about #archive .grid a .month, #archive .grid a #about .month, #about .subheader, #about p, #about blockquote, #about a, #about small, #about #archive .grid a .year, #archive .grid a #about .year {
@@ -3999,7 +4003,6 @@ html {
 
 #archive {
   color: #222222;
-  background: white url(../img/white-bg.png);
   background: url("../img/previous.png");
   background-position: center;
   background-size: cover; }
@@ -4047,7 +4050,6 @@ html {
 
 #footer {
   color: #a6a6a6;
-  background: #f2f2f2 url(../img/white-bg.png);
   background: #f2f2f2;
   border-radius: 0;
   margin-top: 0;
