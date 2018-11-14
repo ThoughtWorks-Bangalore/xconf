@@ -3836,6 +3836,9 @@ html {
     color: #222222; }
   #agenda code, #agenda abbr, #agenda acronym {
     color: black; }
+  #agenda h4 {
+    position: absolute;
+    left: 616px; }
   #agenda .timings .row {
     border-left: solid 5px #ffdf80;
     border-bottom: 1px dashed #b38600;
