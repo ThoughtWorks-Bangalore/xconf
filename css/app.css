@@ -3794,12 +3794,6 @@ html {
       animation: fadeInUp 1s 2s ease both; }
     #intro .actions a {
       display: block; }
-      #intro .actions a:hover {
-        -webkit-animation: tada 1s 0s ease both;
-        -moz-animation: tada 1s 0s ease both;
-        -ms-animation: tada 1s 0s ease both;
-        -o-animation: tada 1s 0s ease both;
-        animation: tada 1s 0s ease both; }
       #intro .actions a h4 {
         -webkit-transition: background-color 300ms ease-out;
         -moz-transition: background-color 300ms ease-out;
