@@ -3628,7 +3628,8 @@ html {
   .feature .row {
     margin-bottom: 1em;
     max-width: 1000px;
-    text-align: center; }
+    text-align: center;
+    font-family: "Open Sans"; }
 
 #header {
   padding: 0;
@@ -3681,7 +3682,8 @@ html {
     font-size: larger;
     text-align: center;
     position: relative;
-    top: -20px; }
+    top: -20px;
+    font-family: "Open Sans"; }
   #intro .logo img {
     display: inline-block;
     margin: 0 auto;
@@ -3777,7 +3779,8 @@ html {
         visibility: hidden;
         top: 100%; }
   #intro .actions {
-    padding-top: 1em; }
+    padding-top: 1em;
+    font-family: "Open Sans"; }
     #intro .actions .participate {
       -webkit-animation: fadeInUp 1s 1.5s ease both;
       -moz-animation: fadeInUp 1s 1.5s ease both;
@@ -3844,6 +3847,7 @@ html {
 
 #agenda {
   text-align: center;
+  font-family: "Open Sans";
   color: #222222;
   background-color: #99c47c; }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda a, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
@@ -3914,7 +3918,8 @@ html {
 
 #participate .participate-title {
   text-align: center;
-  margin: 30px auto; }
+  margin: 30px auto;
+  font-family: "Open Sans"; }
 
 #location {
   color: #222222;
@@ -4090,7 +4095,8 @@ html {
     border: none;
     padding: 10px 15px;
     background-color: #80ac73;
-    background-image: none; }
+    background-image: none;
+    font-family: "Open Sans"; }
     .mktoForm .mktoButtonRow .mktoButtonWrap.mktoSimple .mktoButton:hover {
       border: none;
       background-color: black;
@@ -4105,7 +4111,8 @@ html {
     float: left;
     padding: 0 10px;
     margin: 10px 0;
-    clear: none !important; }
+    clear: none !important;
+    font-family: "Open Sans"; }
     @media only screen and (max-width: 768px) {
       .mktoForm .mktoFormRow {
         width: 100%;
