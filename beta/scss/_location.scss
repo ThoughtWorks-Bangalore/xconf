@@ -1,0 +1,34 @@
+.location {
+  font-size: 1rem;
+  background-image: url('./../images/map.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1em 0;
+  padding: 10em 0em;
+
+  .location__address {
+    background: #fff;
+    font-size: 1.25rem;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 2em 2em 1.5em;
+    margin-left: 2em;
+  }
+  
+  .location__address__line {
+    display: block;
+    letter-spacing: -0.6px;
+  }
+  
+  .location__address a {
+    font-size: 0.8125rem;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+}
+

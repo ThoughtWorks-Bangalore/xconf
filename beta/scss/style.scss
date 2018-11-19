@@ -1,0 +1,15 @@
+@import 'base';
+@import 'header';
+@import 'agenda';
+@import 'form';
+@import 'location';
+
+.eventInfo {
+  position: relative;
+  z-index: 1;
+  margin-top: -1em;
+}
+
+.footer__smallText {
+  font-size: 1rem;
+}
