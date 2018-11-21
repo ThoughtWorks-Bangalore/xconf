@@ -8,7 +8,7 @@
     padding-bottom: .8333em;
   }
 
-  @media screen and (max-width: 767px) { 
+  @media screen and (max-width: 767px) {
       overflow-x: auto;
       padding: 2.5em 0.5em;
   }
@@ -24,7 +24,7 @@
       table-layout: auto;
     }
 
-    
+
     tr {
       border-bottom: 1px #B4B4B4 dashed;
       &.dark {
@@ -43,7 +43,7 @@
         border-right: 1px #B4B4B4 dashed;
       }
 
-      th:first-child, 
+      th:first-child,
       td:first-child {
         text-align: right;
       }
