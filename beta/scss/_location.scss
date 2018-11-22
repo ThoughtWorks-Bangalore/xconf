@@ -5,6 +5,8 @@
   background-repeat: no-repeat;
   margin: 1em 0;
   padding: 10em 0em;
+  background-attachment: fixed;
+  background-size: cover;
 
   .location__address {
     background: #fff;
@@ -15,20 +17,20 @@
     padding: 2em 2em 1.5em;
     margin-left: 2em;
   }
-  
+
   .location__address__line {
     display: block;
     letter-spacing: -0.6px;
   }
-  
+
   .location__address a {
     font-size: 0.8125rem;
     text-decoration: none;
-    
+
     &:hover {
       text-decoration: underline;
     }
   }
-  
+
 }
 
