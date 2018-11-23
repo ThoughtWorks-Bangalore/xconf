@@ -1,0 +1,36 @@
+footer {
+  background-color: #808285;
+  color: #fff;
+  .footer__content {
+    font-size: 1.2rem;
+  }
+  .info {
+    h2.title {
+      font-size: 2rem;
+    }
+    background: transparent;
+    text-align: left;
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 1.2rem;
+      @media screen and (max-width: 767px) {
+        flex-wrap: wrap;
+      }
+      a {
+        text-decoration: none;
+        font-size: inherit;
+        padding-right: 10px;
+        display: block;
+        &:hover {
+          text-decoration: underline;
+        }
+        @media screen and (max-width: 767px) {
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+}
