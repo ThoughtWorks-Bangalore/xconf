@@ -68,6 +68,10 @@ $gray: #666;
 		margin: 0 0 10px 0;
 		color: $gray;
 
+		em {
+			display: block;
+			font-weight: normal;
+		}
 	}
 
 	.session__overview {
