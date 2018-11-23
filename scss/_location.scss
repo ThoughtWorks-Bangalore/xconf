@@ -5,8 +5,11 @@
   background-repeat: no-repeat;
   margin: 1em 0;
   padding: 10em 0em;
-  background-attachment: fixed;
-  background-size: contain;
+  @media screen and (min-width: 1024px) {
+    background-attachment: fixed;
+    background-size: contain;
+  }
+
 
   .location__address {
     background: #fff;
